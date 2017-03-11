@@ -68,6 +68,17 @@ guaranteed unique MAC address for the board.
 The onboard MMC controller goes to a microSD card slot for removeable storage
 (permanent? There is only 512MB onboard.)
 
+The onboard debug UART is converted to USB for serial console and bossa access.
+This UART, along with the USB Device port of the processor, is combined in one
+upstream-facing USB port through an onboard hub. The downstream-facing USB port
+is brought out as-is.
+
+The full-featured UART is level shifted and made into a DE-9 serial port. There
+is also a third UART prepared for a potential Bluetooth module.
+
+System power and reset management is performed by an onboard STM32F030F4 MCU,
+managed through the SPI bus.
+
 ## License
 
 This is [open source hardware](http://www.oshwa.org/), licensed under the
