@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1403,6 +1405,32 @@ reflow soldering</description>
 <wire x1="-1.6" y1="-0.5" x2="-1.6" y2="0.5" width="0.127" layer="21"/>
 <wire x1="1.6" y1="-0.5" x2="1.6" y2="0.5" width="0.127" layer="21"/>
 </package>
+<package name="USD-HOLDER">
+<wire x1="7.4" y1="-7.25" x2="7.4" y2="6.75" width="0.127" layer="21"/>
+<wire x1="7.4" y1="6.75" x2="-1.4" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="6.75" x2="-4.4" y2="7.55" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="7.55" x2="-7.4" y2="7.55" width="0.127" layer="21"/>
+<wire x1="-7.4" y1="7.55" x2="-7.4" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="-7.4" y1="-5.8" x2="-6.1" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-5.8" x2="-6.1" y2="-7.25" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-7.25" x2="7.4" y2="-7.25" width="0.127" layer="21"/>
+<smd name="S1" x="-7.9" y="2.85" dx="1.4" dy="2" layer="1"/>
+<smd name="S2" x="7.9" y="2.85" dx="1.4" dy="2" layer="1"/>
+<smd name="S3" x="7.96" y="-6.75" dx="1.28" dy="1.4" layer="1"/>
+<smd name="S4" x="-7.025" y="-6.75" dx="1.95" dy="1.4" layer="1"/>
+<smd name="1" x="-2.2" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="2" x="-1.1" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="4" x="1.1" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="5" x="2.2" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="6" x="3.3" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="7" x="4.4" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="8" x="5.5" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="9" x="6.6" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<text x="7.7" y="1.1" size="1.016" layer="25" ratio="18" rot="R270">&gt;NAME</text>
+<hole x="-3.1" y="3.25" drill="1.25"/>
+<hole x="4.9" y="3.25" drill="1.25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AT91SAM9260-QU-PORTA">
@@ -1928,6 +1956,24 @@ reflow soldering</description>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="USDCARD_SDIO">
+<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<text x="-7.62" y="13.208" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CD/DAT3" x="-12.7" y="7.62" length="middle"/>
+<pin name="CMD" x="-12.7" y="5.08" length="middle"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="VCC" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="CLK" x="-12.7" y="0" length="middle" direction="in" function="clk"/>
+<pin name="DAT1" x="-12.7" y="-7.62" length="middle"/>
+<pin name="DAT0" x="-12.7" y="-5.08" length="middle"/>
+<pin name="DAT2" x="-12.7" y="10.16" length="middle"/>
+<pin name="SHIELD" x="-12.7" y="-15.24" length="middle" direction="pas"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<pin name="DETECT" x="-12.7" y="-12.7" length="middle" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AT91SAM9260" prefix="IC">
@@ -2246,7 +2292,7 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT45DB*1E">
+<deviceset name="AT45DB*1E" prefix="IC">
 <description>SPI DataFlash, 256kB/512kB/1MB/2MB/4MB/8MB</description>
 <gates>
 <gate name="G$1" symbol="DATAFLASH" x="0" y="0"/>
@@ -2569,6 +2615,30 @@ reflow soldering</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USD-HOLDER" prefix="J">
+<gates>
+<gate name="G$1" symbol="USDCARD_SDIO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USD-HOLDER">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="DETECT" pad="9"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
