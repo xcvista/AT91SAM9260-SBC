@@ -10736,66 +10736,66 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="IC1" library="ARM926SBC" deviceset="AT91SAM9260" device="-QU" technology="B"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="IC3" library="ARM926SBC" deviceset="AT91SAM9260" device="-QU" technology="B"/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="L1" library="rcl" deviceset="L-EU" device="R0603" value="6.9"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="200n"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="20n"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="10p"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="10p"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="3p"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="3p"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="300"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="200n"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="20n"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="10p"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="10p"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="3p"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="3p"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="300"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="ARM926SBC" deviceset="CRYSTAL" device="-3225" value="16M"/>
 <part name="X2" library="ARM926SBC" deviceset="CRYSTAL" device="-3215" value="32768"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="G1" library="battery" deviceset="CH291-1220LF" device="" value="CR1220"/>
-<part name="IC2" library="ARM926SBC" deviceset="LP2985?" device="IM5X" technology="-1.8"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="G1" library="battery" deviceset="CH291-1220LF" device="" value="CR1220"/>
+<part name="IC1" library="ARM926SBC" deviceset="LP2985?" device="IM5X" technology="-1.8"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="VDD2" library="supply1" deviceset="VDD" device=""/>
-<part name="IC3" library="ARM926SBC" deviceset="LM3671?" device="MF" technology="-1.8"/>
+<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="VDD3" library="supply1" deviceset="VDD" device=""/>
+<part name="IC2" library="ARM926SBC" deviceset="LM3671?" device="MF" technology="-1.8"/>
 <part name="IC4" library="ARM926SBC" deviceset="LM3671?" device="MF" technology="-3.3"/>
 <part name="IC5" library="ARM926SBC" deviceset="LP2985?" device="IM5X" technology="-3.3"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="L2" library="rcl" deviceset="L-EU" device="L5650M" value="4.7u"/>
 <part name="L3" library="rcl" deviceset="L-EU" device="L5650M" value="4.7u"/>
-<part name="VDD3" library="supply1" deviceset="VDD" device=""/>
+<part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="DO214AC" value="SS14"/>
-<part name="C31" library="rcl" deviceset="C-EU" device="C1206" value="47u"/>
-<part name="C32" library="rcl" deviceset="C-EU" device="C1206" value="47u"/>
-<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="47u"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="47u"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="Q1" library="ARM926SBC" deviceset="2N7002" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="Power"/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="IC6" library="ARM926SBC" deviceset="MT48LC32M16A2" device="" technology="-75C"/>
@@ -10817,66 +10817,66 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="IC1" gate="-ANALOG" x="81.28" y="144.78"/>
-<instance part="GND1" gate="1" x="58.42" y="121.92"/>
+<instance part="IC3" gate="-ANALOG" x="81.28" y="144.78"/>
+<instance part="GND3" gate="1" x="58.42" y="121.92"/>
 <instance part="VDD1" gate="G$1" x="55.88" y="165.1"/>
 <instance part="L1" gate="G$1" x="43.18" y="142.24"/>
-<instance part="C1" gate="G$1" x="101.6" y="111.76"/>
-<instance part="C2" gate="G$1" x="111.76" y="121.92"/>
-<instance part="C3" gate="G$1" x="121.92" y="121.92"/>
-<instance part="C4" gate="G$1" x="132.08" y="121.92"/>
-<instance part="C5" gate="G$1" x="142.24" y="121.92"/>
-<instance part="C6" gate="G$1" x="152.4" y="121.92"/>
-<instance part="R1" gate="G$1" x="101.6" y="121.92" rot="R90"/>
-<instance part="R2" gate="G$1" x="111.76" y="152.4"/>
-<instance part="GND2" gate="1" x="101.6" y="99.06"/>
+<instance part="C7" gate="G$1" x="101.6" y="111.76"/>
+<instance part="C8" gate="G$1" x="111.76" y="121.92"/>
+<instance part="C9" gate="G$1" x="121.92" y="121.92"/>
+<instance part="C10" gate="G$1" x="132.08" y="121.92"/>
+<instance part="C11" gate="G$1" x="142.24" y="121.92"/>
+<instance part="C13" gate="G$1" x="152.4" y="121.92"/>
+<instance part="R4" gate="G$1" x="101.6" y="121.92" rot="R90"/>
+<instance part="R5" gate="G$1" x="111.76" y="152.4"/>
+<instance part="GND4" gate="1" x="101.6" y="99.06"/>
 <instance part="X1" gate="G$1" x="127" y="152.4"/>
 <instance part="X2" gate="G$1" x="147.32" y="137.16"/>
-<instance part="C7" gate="G$1" x="172.72" y="154.94"/>
-<instance part="C8" gate="G$1" x="182.88" y="154.94"/>
-<instance part="C9" gate="G$1" x="193.04" y="154.94"/>
-<instance part="C10" gate="G$1" x="203.2" y="154.94"/>
-<instance part="C11" gate="G$1" x="213.36" y="154.94"/>
-<instance part="C12" gate="G$1" x="223.52" y="154.94"/>
-<instance part="C13" gate="G$1" x="233.68" y="154.94"/>
+<instance part="C14" gate="G$1" x="172.72" y="154.94"/>
+<instance part="C18" gate="G$1" x="182.88" y="154.94"/>
+<instance part="C21" gate="G$1" x="193.04" y="154.94"/>
+<instance part="C25" gate="G$1" x="203.2" y="154.94"/>
+<instance part="C28" gate="G$1" x="213.36" y="154.94"/>
+<instance part="C31" gate="G$1" x="223.52" y="154.94"/>
+<instance part="C34" gate="G$1" x="233.68" y="154.94"/>
 <instance part="G1" gate="G1" x="22.86" y="104.14" rot="R90"/>
-<instance part="IC2" gate="G$1" x="45.72" y="111.76"/>
-<instance part="C14" gate="G$1" x="63.5" y="106.68"/>
-<instance part="C15" gate="G$1" x="73.66" y="106.68"/>
-<instance part="GND3" gate="1" x="22.86" y="91.44"/>
-<instance part="C16" gate="G$1" x="172.72" y="139.7"/>
-<instance part="C17" gate="G$1" x="182.88" y="139.7"/>
-<instance part="C18" gate="G$1" x="193.04" y="139.7"/>
-<instance part="C19" gate="G$1" x="203.2" y="139.7"/>
-<instance part="C20" gate="G$1" x="213.36" y="139.7"/>
-<instance part="C21" gate="G$1" x="223.52" y="139.7"/>
-<instance part="C22" gate="G$1" x="172.72" y="124.46"/>
-<instance part="C23" gate="G$1" x="182.88" y="124.46"/>
-<instance part="C24" gate="G$1" x="193.04" y="124.46"/>
-<instance part="C25" gate="G$1" x="203.2" y="124.46"/>
-<instance part="C26" gate="G$1" x="213.36" y="124.46"/>
-<instance part="C27" gate="G$1" x="223.52" y="124.46"/>
-<instance part="C28" gate="G$1" x="25.4" y="134.62"/>
-<instance part="C29" gate="G$1" x="35.56" y="134.62"/>
-<instance part="C30" gate="G$1" x="50.8" y="134.62"/>
-<instance part="GND4" gate="1" x="167.64" y="111.76"/>
-<instance part="VDD2" gate="G$1" x="241.3" y="144.78" rot="R270"/>
-<instance part="IC3" gate="G$1" x="68.58" y="66.04"/>
+<instance part="IC1" gate="G$1" x="45.72" y="111.76"/>
+<instance part="C4" gate="G$1" x="63.5" y="106.68"/>
+<instance part="C5" gate="G$1" x="73.66" y="106.68"/>
+<instance part="GND1" gate="1" x="22.86" y="91.44"/>
+<instance part="C15" gate="G$1" x="172.72" y="139.7"/>
+<instance part="C19" gate="G$1" x="182.88" y="139.7"/>
+<instance part="C22" gate="G$1" x="193.04" y="139.7"/>
+<instance part="C26" gate="G$1" x="203.2" y="139.7"/>
+<instance part="C29" gate="G$1" x="213.36" y="139.7"/>
+<instance part="C32" gate="G$1" x="223.52" y="139.7"/>
+<instance part="C16" gate="G$1" x="172.72" y="124.46"/>
+<instance part="C20" gate="G$1" x="182.88" y="124.46"/>
+<instance part="C23" gate="G$1" x="193.04" y="124.46"/>
+<instance part="C27" gate="G$1" x="203.2" y="124.46"/>
+<instance part="C30" gate="G$1" x="213.36" y="124.46"/>
+<instance part="C33" gate="G$1" x="223.52" y="124.46"/>
+<instance part="C1" gate="G$1" x="25.4" y="134.62"/>
+<instance part="C2" gate="G$1" x="35.56" y="134.62"/>
+<instance part="C3" gate="G$1" x="50.8" y="134.62"/>
+<instance part="GND5" gate="1" x="167.64" y="111.76"/>
+<instance part="VDD3" gate="G$1" x="241.3" y="144.78" rot="R270"/>
+<instance part="IC2" gate="G$1" x="68.58" y="66.04"/>
 <instance part="IC4" gate="G$1" x="116.84" y="66.04"/>
 <instance part="IC5" gate="G$1" x="165.1" y="66.04"/>
 <instance part="R3" gate="G$1" x="99.06" y="73.66" rot="R90"/>
 <instance part="L2" gate="G$1" x="86.36" y="71.12"/>
 <instance part="L3" gate="G$1" x="134.62" y="71.12"/>
-<instance part="VDD3" gate="G$1" x="142.24" y="88.9"/>
+<instance part="VDD2" gate="G$1" x="142.24" y="88.9"/>
 <instance part="D1" gate="G$1" x="86.36" y="53.34" rot="MR0"/>
-<instance part="C31" gate="G$1" x="93.98" y="45.72"/>
-<instance part="C32" gate="G$1" x="142.24" y="45.72"/>
-<instance part="C33" gate="G$1" x="180.34" y="45.72"/>
-<instance part="C34" gate="G$1" x="193.04" y="45.72"/>
-<instance part="R4" gate="G$1" x="40.64" y="73.66" rot="R90"/>
+<instance part="C6" gate="G$1" x="93.98" y="45.72"/>
+<instance part="C12" gate="G$1" x="142.24" y="45.72"/>
+<instance part="C17" gate="G$1" x="180.34" y="45.72"/>
+<instance part="C24" gate="G$1" x="193.04" y="45.72"/>
+<instance part="R2" gate="G$1" x="40.64" y="73.66" rot="R90"/>
 <instance part="Q1" gate="G$1" x="38.1" y="45.72"/>
-<instance part="GND5" gate="1" x="40.64" y="33.02"/>
-<instance part="R5" gate="G$1" x="22.86" y="63.5" rot="R90"/>
+<instance part="GND2" gate="1" x="40.64" y="33.02"/>
+<instance part="R1" gate="G$1" x="22.86" y="63.5" rot="R90"/>
 <instance part="S1" gate="G$1" x="22.86" y="45.72" rot="R90"/>
 </instances>
 <busses>
@@ -10884,9 +10884,9 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <nets>
 <net name="VDDCORE" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="VDDCORE"/>
+<pinref part="IC3" gate="-ANALOG" pin="VDDCORE"/>
 <wire x1="20.32" y1="160.02" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="-ANALOG" pin="VDDPLL"/>
+<pinref part="IC3" gate="-ANALOG" pin="VDDPLL"/>
 <wire x1="58.42" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="144.78" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
@@ -10894,7 +10894,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="20.32" y="160.02" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
@@ -10903,22 +10903,22 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="193.04" y1="160.02" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="160.02" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="160.02" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="157.48" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
 <junction x="182.88" y="160.02"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="157.48" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
 <junction x="193.04" y="160.02"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="157.48" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
 <junction x="203.2" y="160.02"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="157.48" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
 <junction x="213.36" y="160.02"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 <junction x="223.52" y="160.02"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="157.48" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
 <junction x="233.68" y="160.02"/>
 <label x="238.76" y="160.02" size="1.778" layer="95" xref="yes"/>
@@ -10929,11 +10929,11 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="93.98" y1="71.12" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 <label x="91.44" y="81.28" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="IC3" gate="G$1" pin="FB"/>
+<pinref part="IC2" gate="G$1" pin="FB"/>
 <wire x1="78.74" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
 <junction x="93.98" y="71.12"/>
-<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="48.26" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="60.96"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -10944,17 +10944,17 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="VDDBU" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="VDDBU"/>
+<pinref part="IC3" gate="-ANALOG" pin="VDDBU"/>
 <wire x1="20.32" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
 <label x="20.32" y="149.86" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="C28" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="137.16" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
 <junction x="25.4" y="149.86"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VOUT"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="VOUT"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
@@ -10964,41 +10964,41 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="GND"/>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="IC3" gate="-ANALOG" pin="GND"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="63.5" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="137.16" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="-ANALOG" pin="GNDPLL"/>
+<pinref part="IC3" gate="-ANALOG" pin="GNDPLL"/>
 <wire x1="58.42" y1="134.62" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="132.08" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="129.54" x2="58.42" y2="127" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="127" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <junction x="58.42" y="129.54"/>
-<pinref part="IC1" gate="-ANALOG" pin="GNDANA"/>
+<pinref part="IC3" gate="-ANALOG" pin="GNDANA"/>
 <wire x1="63.5" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
 <junction x="58.42" y="132.08"/>
-<pinref part="IC1" gate="-ANALOG" pin="GNDBU"/>
+<pinref part="IC3" gate="-ANALOG" pin="GNDBU"/>
 <wire x1="63.5" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
 <junction x="58.42" y="134.62"/>
-<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="127" x2="25.4" y2="127" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="127" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
 <junction x="58.42" y="127"/>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="129.54" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <junction x="35.56" y="127"/>
-<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="129.54" x2="50.8" y2="127" width="0.1524" layer="91"/>
 <junction x="50.8" y="127"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="101.6" y1="106.68" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="104.14" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
@@ -11007,40 +11007,40 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="142.24" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="104.14" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
 <junction x="101.6" y="104.14"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="116.84" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <junction x="111.76" y="104.14"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="116.84" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
 <junction x="121.92" y="104.14"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="116.84" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
 <junction x="132.08" y="104.14"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="116.84" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <junction x="142.24" y="104.14"/>
 </segment>
 <segment>
 <pinref part="G1" gate="G1" pin="-"/>
-<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="22.86" y1="99.06" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="96.52" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="96.52" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="96.52" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
 <junction x="22.86" y="96.52"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="101.6" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <junction x="63.5" y="96.52"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="35.56" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="106.68" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
 <junction x="33.02" y="96.52"/>
 </segment>
 <segment>
-<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="233.68" y1="147.32" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
@@ -11049,7 +11049,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="182.88" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="147.32" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="132.08" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="116.84" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
@@ -11060,27 +11060,27 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="213.36" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="116.84" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <junction x="167.64" y="116.84"/>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="149.86" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C31" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="149.86" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
 <junction x="223.52" y="147.32"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="149.86" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
 <junction x="213.36" y="147.32"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="149.86" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <junction x="203.2" y="147.32"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="149.86" x2="193.04" y2="147.32" width="0.1524" layer="91"/>
 <junction x="193.04" y="147.32"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="149.86" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <junction x="182.88" y="147.32"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="149.86" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 <junction x="172.72" y="147.32"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="132.08" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
@@ -11089,42 +11089,42 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="213.36" y1="132.08" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="132.08" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
 <junction x="167.64" y="132.08"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="134.62" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
 <junction x="213.36" y="132.08"/>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="134.62" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <junction x="203.2" y="132.08"/>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="134.62" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
 <junction x="193.04" y="132.08"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="134.62" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
 <junction x="182.88" y="132.08"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="134.62" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
 <junction x="172.72" y="132.08"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="119.38" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
 <junction x="172.72" y="116.84"/>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="119.38" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
 <junction x="182.88" y="116.84"/>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="119.38" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
 <junction x="193.04" y="116.84"/>
-<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="119.38" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
 <junction x="203.2" y="116.84"/>
-<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="119.38" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
 <junction x="213.36" y="116.84"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="40.64" y1="40.64" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="38.1" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
@@ -11135,16 +11135,16 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="180.34" y1="38.1" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="38.1" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
 <junction x="40.64" y="38.1"/>
-<pinref part="C33" gate="G$1" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="40.64" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
 <junction x="180.34" y="38.1"/>
-<pinref part="C32" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="40.64" x2="142.24" y2="38.1" width="0.1524" layer="91"/>
 <junction x="142.24" y="38.1"/>
-<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="40.64" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <junction x="93.98" y="38.1"/>
-<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="58.42" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="60.96" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <junction x="55.88" y="38.1"/>
@@ -11163,23 +11163,23 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="VDDIOP1"/>
+<pinref part="IC3" gate="-ANALOG" pin="VDDIOP1"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
 <wire x1="63.5" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="152.4" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="-ANALOG" pin="VDDIOP0"/>
+<pinref part="IC3" gate="-ANALOG" pin="VDDIOP0"/>
 <wire x1="55.88" y1="154.94" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="157.48" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
 <junction x="55.88" y="154.94"/>
-<pinref part="IC1" gate="-ANALOG" pin="VDDIOM"/>
+<pinref part="IC3" gate="-ANALOG" pin="VDDIOM"/>
 <wire x1="63.5" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="157.48"/>
 </segment>
 <segment>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="VDD2" gate="G$1" pin="VDD"/>
+<pinref part="VDD3" gate="G$1" pin="VDD"/>
 <wire x1="172.72" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
@@ -11187,22 +11187,22 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="213.36" y1="144.78" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="142.24" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
 <junction x="223.52" y="144.78"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="142.24" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
 <junction x="213.36" y="144.78"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="142.24" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <junction x="203.2" y="144.78"/>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="142.24" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
 <junction x="193.04" y="144.78"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="142.24" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
 <junction x="182.88" y="144.78"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="127" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
@@ -11212,19 +11212,19 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="223.52" y1="129.54" x2="233.68" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="129.54" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
 <junction x="233.68" y="144.78"/>
-<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="127" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
 <junction x="223.52" y="129.54"/>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="127" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 <junction x="213.36" y="129.54"/>
-<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="127" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <junction x="203.2" y="129.54"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="127" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <junction x="193.04" y="129.54"/>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="127" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <junction x="182.88" y="129.54"/>
 </segment>
@@ -11232,22 +11232,22 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <pinref part="IC4" gate="G$1" pin="FB"/>
 <wire x1="127" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="60.96" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="VDD3" gate="G$1" pin="VDD"/>
+<pinref part="VDD2" gate="G$1" pin="VDD"/>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="71.12" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
 <junction x="142.24" y="71.12"/>
-<pinref part="C32" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="48.26" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
 <junction x="142.24" y="60.96"/>
 </segment>
 </net>
 <net name="ADVREF" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="ADVREF"/>
+<pinref part="IC3" gate="-ANALOG" pin="ADVREF"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="137.16" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <junction x="50.8" y="142.24"/>
@@ -11255,7 +11255,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="VDDANA" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="VDDANA"/>
+<pinref part="IC3" gate="-ANALOG" pin="VDDANA"/>
 <wire x1="63.5" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="147.32" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
@@ -11263,41 +11263,50 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="35.56" y1="142.24" x2="20.32" y2="142.24" width="0.1524" layer="91"/>
 <junction x="35.56" y="142.24"/>
 <label x="20.32" y="142.24" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="142.24" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VOUT"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="71.12" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<junction x="193.04" y="71.12"/>
+<label x="198.12" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="PLLRC"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="-ANALOG" pin="PLLRC"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="129.54" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="127" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
 <junction x="101.6" y="129.54"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="116.84" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="-ANALOG" pin="XOUT"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="-ANALOG" pin="XOUT"/>
 <wire x1="106.68" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="152.4" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
@@ -11306,8 +11315,8 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="XIN"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="-ANALOG" pin="XIN"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="160.02" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="160.02" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="2"/>
@@ -11319,9 +11328,9 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="-ANALOG" pin="X32OUT"/>
+<pinref part="IC3" gate="-ANALOG" pin="X32OUT"/>
 <wire x1="144.78" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="124.46" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
 <junction x="142.24" y="137.16"/>
@@ -11329,8 +11338,8 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC1" gate="-ANALOG" pin="X32IN"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="-ANALOG" pin="X32IN"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="144.78" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="2"/>
@@ -11341,12 +11350,12 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="VIN"/>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
 <pinref part="G1" gate="G1" pin="+"/>
 <wire x1="35.56" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="116.84" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="CE"/>
+<pinref part="IC1" gate="G$1" pin="CE"/>
 <wire x1="35.56" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="111.76" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 <junction x="33.02" y="116.84"/>
@@ -11355,7 +11364,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <junction x="22.86" y="116.84"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
 <label x="20.32" y="71.12" size="1.778" layer="95" rot="MR0" xref="yes"/>
@@ -11363,8 +11372,8 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="CB"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="CB"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="111.76" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -11375,7 +11384,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="154.94" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="71.12" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN"/>
+<pinref part="IC2" gate="G$1" pin="VIN"/>
 <wire x1="104.14" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
@@ -11387,14 +11396,14 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="104.14" y1="71.12" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
 <junction x="104.14" y="83.82"/>
 <label x="20.32" y="83.82" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="78.74" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <junction x="40.64" y="83.82"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="SW"/>
+<pinref part="IC2" gate="G$1" pin="SW"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
@@ -11406,29 +11415,21 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <wire x1="127" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="VOUT"/>
-<pinref part="C34" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="71.12" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="CB"/>
-<pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="66.04" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="CE"/>
+<pinref part="IC2" gate="G$1" pin="CE"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="58.42" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="66.04" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="53.34" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="68.58" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 <junction x="40.64" y="66.04"/>
@@ -11456,7 +11457,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="POWER" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="58.42" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="55.88" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
@@ -11479,8 +11480,8 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="IC1" gate="-EBI" x="99.06" y="104.14"/>
-<instance part="IC1" gate="-PORTC" x="200.66" y="119.38"/>
+<instance part="IC3" gate="-EBI" x="99.06" y="104.14"/>
+<instance part="IC3" gate="-PORTC" x="200.66" y="119.38"/>
 <instance part="IC6" gate="G$1" x="40.64" y="109.22"/>
 <instance part="IC7" gate="G$1" x="40.64" y="48.26"/>
 <instance part="VDD4" gate="G$1" x="15.24" y="40.64" rot="R90"/>
@@ -11510,7 +11511,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D0"/>
+<pinref part="IC3" gate="-EBI" pin="D0"/>
 <wire x1="81.28" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="139.7" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
 <label x="71.12" y="139.7" size="1.778" layer="95"/>
@@ -11530,7 +11531,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D1"/>
+<pinref part="IC3" gate="-EBI" pin="D1"/>
 <wire x1="81.28" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="137.16" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
 <label x="71.12" y="137.16" size="1.778" layer="95"/>
@@ -11550,7 +11551,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D2"/>
+<pinref part="IC3" gate="-EBI" pin="D2"/>
 <wire x1="81.28" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="134.62" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
 <label x="71.12" y="134.62" size="1.778" layer="95"/>
@@ -11570,7 +11571,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="132.08" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D3"/>
+<pinref part="IC3" gate="-EBI" pin="D3"/>
 <wire x1="81.28" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="132.08" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
 <label x="71.12" y="132.08" size="1.778" layer="95"/>
@@ -11590,7 +11591,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="129.54" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D4"/>
+<pinref part="IC3" gate="-EBI" pin="D4"/>
 <wire x1="81.28" y1="129.54" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="129.54" x2="68.58" y2="127" width="0.1524" layer="91"/>
 <label x="71.12" y="129.54" size="1.778" layer="95"/>
@@ -11610,7 +11611,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="127" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D5"/>
+<pinref part="IC3" gate="-EBI" pin="D5"/>
 <wire x1="81.28" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="127" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 <label x="71.12" y="127" size="1.778" layer="95"/>
@@ -11630,7 +11631,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="124.46" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D6"/>
+<pinref part="IC3" gate="-EBI" pin="D6"/>
 <wire x1="81.28" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="124.46" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="71.12" y="124.46" size="1.778" layer="95"/>
@@ -11650,7 +11651,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D7"/>
+<pinref part="IC3" gate="-EBI" pin="D7"/>
 <wire x1="81.28" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="121.92" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
 <label x="71.12" y="121.92" size="1.778" layer="95"/>
@@ -11670,7 +11671,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="116.84" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D8"/>
+<pinref part="IC3" gate="-EBI" pin="D8"/>
 <wire x1="81.28" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="116.84" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
 <label x="71.12" y="116.84" size="1.778" layer="95"/>
@@ -11684,7 +11685,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="114.3" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D9"/>
+<pinref part="IC3" gate="-EBI" pin="D9"/>
 <wire x1="81.28" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="114.3" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
 <label x="71.12" y="114.3" size="1.778" layer="95"/>
@@ -11698,7 +11699,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="111.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D10"/>
+<pinref part="IC3" gate="-EBI" pin="D10"/>
 <wire x1="81.28" y1="111.76" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="111.76" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <label x="71.12" y="111.76" size="1.778" layer="95"/>
@@ -11712,7 +11713,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="109.22" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D11"/>
+<pinref part="IC3" gate="-EBI" pin="D11"/>
 <wire x1="81.28" y1="109.22" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="109.22" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 <label x="71.12" y="109.22" size="1.778" layer="95"/>
@@ -11726,7 +11727,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="106.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D12"/>
+<pinref part="IC3" gate="-EBI" pin="D12"/>
 <wire x1="81.28" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="106.68" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
 <label x="71.12" y="106.68" size="1.778" layer="95"/>
@@ -11740,7 +11741,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="104.14" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D13"/>
+<pinref part="IC3" gate="-EBI" pin="D13"/>
 <wire x1="81.28" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="104.14" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 <label x="71.12" y="104.14" size="1.778" layer="95"/>
@@ -11754,7 +11755,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="101.6" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D14"/>
+<pinref part="IC3" gate="-EBI" pin="D14"/>
 <wire x1="81.28" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="101.6" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <label x="71.12" y="101.6" size="1.778" layer="95"/>
@@ -11768,7 +11769,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="99.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="D15"/>
+<pinref part="IC3" gate="-EBI" pin="D15"/>
 <wire x1="81.28" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="99.06" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 <label x="71.12" y="99.06" size="1.778" layer="95"/>
@@ -11782,7 +11783,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A17/BA1"/>
+<pinref part="IC3" gate="-EBI" pin="A17/BA1"/>
 <wire x1="116.84" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="127" y1="91.44" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <label x="127" y="91.44" size="1.778" layer="95" rot="MR0"/>
@@ -11796,7 +11797,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A16/BA0"/>
+<pinref part="IC3" gate="-EBI" pin="A16/BA0"/>
 <wire x1="116.84" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="127" y1="93.98" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <label x="127" y="93.98" size="1.778" layer="95" rot="MR0"/>
@@ -11810,7 +11811,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A14"/>
+<pinref part="IC3" gate="-EBI" pin="A14"/>
 <wire x1="116.84" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="127" y1="101.6" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
 <label x="127" y="101.6" size="1.778" layer="95" rot="MR0"/>
@@ -11824,7 +11825,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A13"/>
+<pinref part="IC3" gate="-EBI" pin="A13"/>
 <wire x1="116.84" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="127" y1="104.14" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 <label x="127" y="104.14" size="1.778" layer="95" rot="MR0"/>
@@ -11838,7 +11839,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="SDA10"/>
+<pinref part="IC3" gate="-EBI" pin="SDA10"/>
 <wire x1="116.84" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="127" y1="76.2" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="127" y="76.2" size="1.778" layer="95" rot="MR0"/>
@@ -11852,7 +11853,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A11"/>
+<pinref part="IC3" gate="-EBI" pin="A11"/>
 <wire x1="116.84" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="127" y1="109.22" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
 <label x="127" y="109.22" size="1.778" layer="95" rot="MR0"/>
@@ -11866,7 +11867,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A10"/>
+<pinref part="IC3" gate="-EBI" pin="A10"/>
 <wire x1="116.84" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="127" y1="111.76" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
 <label x="127" y="111.76" size="1.778" layer="95" rot="MR0"/>
@@ -11880,7 +11881,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A9"/>
+<pinref part="IC3" gate="-EBI" pin="A9"/>
 <wire x1="116.84" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="127" y1="114.3" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <label x="127" y="114.3" size="1.778" layer="95" rot="MR0"/>
@@ -11894,7 +11895,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A8"/>
+<pinref part="IC3" gate="-EBI" pin="A8"/>
 <wire x1="116.84" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="127" y1="116.84" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
 <label x="127" y="116.84" size="1.778" layer="95" rot="MR0"/>
@@ -11908,7 +11909,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A7"/>
+<pinref part="IC3" gate="-EBI" pin="A7"/>
 <wire x1="116.84" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="127" y1="121.92" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
 <label x="127" y="121.92" size="1.778" layer="95" rot="MR0"/>
@@ -11922,7 +11923,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A6"/>
+<pinref part="IC3" gate="-EBI" pin="A6"/>
 <wire x1="116.84" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="127" y1="124.46" x2="129.54" y2="127" width="0.1524" layer="91"/>
 <label x="127" y="124.46" size="1.778" layer="95" rot="MR0"/>
@@ -11936,7 +11937,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A5"/>
+<pinref part="IC3" gate="-EBI" pin="A5"/>
 <wire x1="116.84" y1="127" x2="127" y2="127" width="0.1524" layer="91"/>
 <wire x1="127" y1="127" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <label x="127" y="127" size="1.778" layer="95" rot="MR0"/>
@@ -11950,7 +11951,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A4"/>
+<pinref part="IC3" gate="-EBI" pin="A4"/>
 <wire x1="116.84" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="127" y1="129.54" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <label x="127" y="129.54" size="1.778" layer="95" rot="MR0"/>
@@ -11964,7 +11965,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A3"/>
+<pinref part="IC3" gate="-EBI" pin="A3"/>
 <wire x1="116.84" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="127" y1="132.08" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <label x="127" y="132.08" size="1.778" layer="95" rot="MR0"/>
@@ -11978,7 +11979,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="A2"/>
+<pinref part="IC3" gate="-EBI" pin="A2"/>
 <wire x1="116.84" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="127" y1="134.62" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
 <label x="127" y="134.62" size="1.778" layer="95" rot="MR0"/>
@@ -11992,7 +11993,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="93.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="BS#0/A0"/>
+<pinref part="IC3" gate="-EBI" pin="BS#0/A0"/>
 <wire x1="116.84" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="127" y1="139.7" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <label x="127" y="139.7" size="1.778" layer="95" rot="MR0"/>
@@ -12006,7 +12007,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="66.04" y="91.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-EBI" pin="BS#1/WR#1"/>
+<pinref part="IC3" gate="-EBI" pin="BS#1/WR#1"/>
 <wire x1="81.28" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="78.74" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <label x="71.12" y="78.74" size="1.778" layer="95"/>
@@ -12014,7 +12015,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="DQM2" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="WR#2/BS#2/A1"/>
+<pinref part="IC3" gate="-EBI" pin="WR#2/BS#2/A1"/>
 <wire x1="116.84" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="127" y1="137.16" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <label x="127" y="137.16" size="1.778" layer="95" rot="MR0"/>
@@ -12022,7 +12023,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="DQM3" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="BS#3/WR#3"/>
+<pinref part="IC3" gate="-EBI" pin="BS#3/WR#3"/>
 <wire x1="81.28" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="76.2" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 <label x="71.12" y="76.2" size="1.778" layer="95"/>
@@ -12030,7 +12031,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="CS0" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="CS#0"/>
+<pinref part="IC3" gate="-EBI" pin="CS#0"/>
 <wire x1="81.28" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="93.98" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
 <label x="71.12" y="93.98" size="1.778" layer="95"/>
@@ -12038,7 +12039,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="CS1" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="CS#1"/>
+<pinref part="IC3" gate="-EBI" pin="CS#1"/>
 <wire x1="81.28" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="91.44" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
 <label x="71.12" y="91.44" size="1.778" layer="95"/>
@@ -12052,7 +12053,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="SRD" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="RD#"/>
+<pinref part="IC3" gate="-EBI" pin="RD#"/>
 <wire x1="81.28" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="88.9" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <label x="71.12" y="88.9" size="1.778" layer="95"/>
@@ -12060,7 +12061,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="SWR" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="WR#"/>
+<pinref part="IC3" gate="-EBI" pin="WR#"/>
 <wire x1="81.28" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="86.36" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <label x="71.12" y="86.36" size="1.778" layer="95"/>
@@ -12068,7 +12069,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="NRD" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="NAND_RD"/>
+<pinref part="IC3" gate="-EBI" pin="NAND_RD"/>
 <wire x1="81.28" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="83.82" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <label x="71.12" y="83.82" size="1.778" layer="95"/>
@@ -12082,7 +12083,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="NWR" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="NAND_WR"/>
+<pinref part="IC3" gate="-EBI" pin="NAND_WR"/>
 <wire x1="81.28" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="81.28" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
 <label x="71.12" y="81.28" size="1.778" layer="95"/>
@@ -12096,7 +12097,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="SDCAS" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="CAS"/>
+<pinref part="IC3" gate="-EBI" pin="CAS"/>
 <wire x1="81.28" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="71.12" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
 <label x="71.12" y="71.12" size="1.778" layer="95"/>
@@ -12110,7 +12111,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="SDRAS" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="RAS"/>
+<pinref part="IC3" gate="-EBI" pin="RAS"/>
 <wire x1="81.28" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="68.58" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <label x="71.12" y="68.58" size="1.778" layer="95"/>
@@ -12124,7 +12125,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="SDCLK" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="SDCK"/>
+<pinref part="IC3" gate="-EBI" pin="SDCK"/>
 <wire x1="116.84" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="127" y1="71.12" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="127" y="71.12" size="1.778" layer="95" rot="MR0"/>
@@ -12138,7 +12139,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="SDWE" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="SDWE"/>
+<pinref part="IC3" gate="-EBI" pin="SDWE"/>
 <wire x1="116.84" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="127" y1="68.58" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
 <label x="127" y="68.58" size="1.778" layer="95" rot="MR0"/>
@@ -12152,7 +12153,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 </net>
 <net name="SDCKE" class="0">
 <segment>
-<pinref part="IC1" gate="-EBI" pin="SDCKE"/>
+<pinref part="IC3" gate="-EBI" pin="SDCKE"/>
 <wire x1="116.84" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="127" y1="66.04" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
 <label x="127" y="66.04" size="1.778" layer="95" rot="MR0"/>
@@ -12188,7 +12189,7 @@ Open Source Hardware. Licensed under 3-clause BSD License.</text>
 <label x="15.24" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="-PORTC" pin="PC14/CS#3/IRQ2"/>
+<pinref part="IC3" gate="-PORTC" pin="PC14/CS#3/IRQ2"/>
 <wire x1="170.18" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="101.6" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
 <label x="132.08" y="101.6" size="1.778" layer="95"/>
