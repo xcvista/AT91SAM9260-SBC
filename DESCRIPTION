@@ -1,0 +1,63 @@
+<h1>AT91SAM9260-SBC</h1>
+<p>A Linux single board computer without BGA</p>
+<h2>Introduction</h2>
+<p>Modern electronics runs on BGA packages. At least a lot of them do. Those dense
+packages are good for making products more light and small, they are nightmares
+to DIY makers and hand repairs.</p>
+<p>This project is a design challenge: to build a single-board computer, not too
+dissimilar from the infamous Raspberry Pi, that runs Linux, but don't use those
+BGA chips. For some added difficulty, in this Round One design, no chip with a
+pad on the bottom is allowed too. (or I would have cheated and spun for an V3s
+that is pretty much an all-in-one solution.)</p>
+<h2>Component Selection</h2>
+<h3>Processor</h3>
+<p>There are only four ARM processors that comes in in QFP package and runs Linux:</p>
+<ul>
+<li>Allwinner A13 (aka R8, as used in <a href="https://getchip.com/">C.H.I.P</a>)</li>
+<li>Allwinner V3s</li>
+<li>NXP i.MX233</li>
+<li>Atmel AT91SAM9260</li>
+</ul>
+<p>Allwinner A13 requires the use of DDR3 memory. Sadly its memory controller does
+not support the fly-by topology used on SODIMM modules, making soldering DDR3
+memory chips, which only comes in BGA package, a must. This rules out the A13.</p>
+<p>V3s is interesting as it comes with built-in RAM - it can work without any high
+speed signals outside of the chip. However it requires the use of a QFN PMIC.
+It will qualify for the Round 2, but not now.</p>
+<p>i.MX233 have one special requirement: a special "Serial JTAG" adapter is needed
+to program it for the first time. The required adapter is not open source, and
+costs an arm and a leg to buy. This makes i.MX233 too complicated to use to me.</p>
+<p>This leaves AT91SAM9260 as my option. This design takes the chip to its maximum
+potential, to make its life running Linux a bit easier. The latest Linux kernel
+is demanding.</p>
+<h3>RAM, Flash and Boot arrangement</h3>
+<p>AT91SAM9260 uses SDR SDRAM. Those are a bit hard to find now. It took me a long
+scout to find the chip that works: MT48LC32M16A2-75C. It is a PC-133 CL3 memory
+chip that maxes out the memory controller on AT91SAM9260.</p>
+<p>AT91SAM9260 supports only SLC NAND memory with one CS line. It appeared to me
+that 512MB is the maximum capacity a 1CS NAND chip can go up to from Samsung,
+one of the supported NAND supplier of AT91SAM9260. The processor can boot off
+this NAND, but it may be a bit tight down the road. Thus some Plan B is added
+to allow this board to boot off even an not-so-supported Intel SLC NAND chip.</p>
+<p>The Plan B in question is a DataFlash chip on the SPI bus. This allows the chip
+tp boot off the u-boot located in the NOR serial Flash, load the driver for
+whatever NAND flash Iam currently using on the board, and load the kernel and
+root filesystem off there. The DataFlash can even be expanded to hold the Linux
+kernel and OpenFirmware device tree on itself.</p>
+<h3>Other peripherals</h3>
+<p>AT91SAM9260 have an built-in Ethernet MAC. The Realtek RTL8201 Ethernet PHY is
+used to interface the computer to the world. An 25AA02E48 is used to provide a
+guaranteed unique MAC address for the board.</p>
+<p>The onboard MMC controller goes to a microSD card slot for removeable storage
+(permanent? There is only 512MB onboard.)</p>
+<p>The onboard debug UART is converted to USB for serial console and bossa access.
+This UART, along with the USB Device port of the processor, is combined in one
+upstream-facing USB port through an onboard hub. The downstream-facing USB port
+is brought out as-is.</p>
+<p>The full-featured UART is level shifted and made into a DE-9 serial port. There
+is also a third UART prepared for a potential Bluetooth module.</p>
+<p>System power and reset management is performed by an onboard STM32F030F4 MCU,
+managed through the SPI bus.</p>
+<h2>License</h2>
+<p>This is <a href="http://www.oshwa.org/">open source hardware</a>, licensed under the
+3-clause BSD license.
